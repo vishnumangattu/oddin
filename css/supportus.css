@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link:hover
+{
+text-decoration: underline;
+text-decoration-color:rgb(190, 185, 185);
+text-underline-offset: 10px;
+}
+.auth-links {
+    display: flex;
+    align-items: center;
+}
+
+.auth-links a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    margin-right: 50px;
+}
+.get-started {
+    background-color: #327a81;
+    color: #ffffff;
+    border: none;
+    margin-right: 100px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.get-started:hover {
+    background-color: #286466;
+}
+.main-heading h1{
+    font-size:30px;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-align: center;
+}
+.para{
+    color: gray;
+    width:100%;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    
+}
+.para .btn{
+  background-color: #327a81;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.para .btn-primary:hover {
+  background-color:#286466;
+}
+.about{
+    background-color: #f2eeee80;
+    height:320vh;
+ }
+ .about h4{
+    margin-top: 100px;
+    margin-left:90px;
+    padding-top: 50px;
+    font-size: x-large;
+    font-weight:bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+ .discription{
+    margin-left:300px;
+    margin-top: 50px;
+ }
+ .discription p{
+    color: gray;
+    text-align: justify;
+ }
+ .footer {
+    background-color: #f8f9fa;
+    padding:40px 0px;
+    
+    
+}
+.footer a {
+    color: #6c757d;
+}
+.footer a:hover {
+    color: #495057;
+}
+.footer .fa-github, .footer .fa-discord, .footer .fa-facebook, .footer .fa-twitter {
+    font-size: 24px;
+    margin-right:50px;
+}
+.footer .logo {
+    display: flex;
+    align-items: center;
+}
+.footer .logo img {
+    width:500px;
+    height:40px;
+    
+}
+.col-md-3 p{
+    margin-top:40px;
+}
+.footer .logo-text {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.text-center-mt-4{
+  margin-left:-50px;
+  margin-top:50px;
+}
+.col-md-2{
+    margin-left:25px;
+}
+.athu img{
+    width:30px;
+    margin-left: 10px;
+}
+
+
+
+ 
